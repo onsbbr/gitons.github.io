@@ -1,63 +1,45 @@
-# Documentation de conception de CV
+# Méthode 1 : Configuration d'un CV en ligne avec VSCode et GitHub
 
-## Objectif du Projet
+## Présentation
 
-Ce projet a pour but de créer et publier un **CV interactif en ligne**. Il utilise **Hugo** pour générer le site, et **GitHub Pages** pour l’hébergement.
-Le CV peut être consulté en local pendant le développement, ou directement en ligne après déploiement.
+Ce projet consiste à créer un **CV en ligne** sous forme de site web statique.  
+Il permet de présenter mon parcours académique, mes compétences et mes expériences professionnelles de manière claire et accessible.
 
-## Méthodes pour Générer et Afficher le CV
+Le CV est hébergé via **GitHub Pages** et consultable directement depuis un navigateur web.
 
-### 1. Méthode Locale (sur votre machine)
+## Objectif du projet
 
-Cette méthode permet de tester et modifier le CV avant de le mettre en ligne.
+- Mettre en ligne un CV professionnel
+- Disposer d’un lien public facile à partager
+- Présenter mes informations de manière structurée et moderne
 
-1. Installer Hugo  
-2. Ouvrir le projet dans VS Code ou dans un terminal  
-3. Lancer le serveur local : ```hugo server -D```
-4. Accéder au CV dans un navigateur : ```http://localhost:1313```
+## Prérequis
+- Un compte GitHub
+- VSCode installé sur votre ordinateur
+- Git installé sur votre système
 
-**Avantage :** aperçu instantané après chaque modification.
+## Organisation du projet
 
-### 2. Méthode en Ligne (hébergée sur GitHub Pages)
+```
+   GITHUB/
+   ├── docs/
+   │   ├── documentation/
+   │   └── pictures/
+   ├── index.html
+   └── README.md
+```
 
-Après avoir poussé le projet sur GitHub, le CV est automatiquement publié à l’adresse : ```https://repo-name.github.io/```. Chaque mise à jour envoyée sur GitHub déclenche une reconstruction automatique du site via GitHub Actions.
+### Description
 
-**Avantage :** CV consultable par n’importe qui, simplement via le lien.
+- **index.html** : page principale contenant le CV  
+- **docs/** : ressources du projet  
+- **docs/pictures/** : images utilisées dans le projet  
+- **docs/Guide.md/** : guide de création du CV
 
-## Termes Clés
+## Accès au CV
 
-### Hugo
+https://votre-nom.github.io
 
-Générateur de sites statiques permettant de créer des sites rapides à partir de fichiers Markdown, HTML et templates.
-Il convertit les fichiers du projet en un site complet dans le dossier **public/**.
+## Remarque
 
-### Git
-
-Outil de gestion de versions permettant de suivre les modifications et de collaborer. Il permet d’enregistrer, revenir en arrière, et synchroniser le code.
-
-### GitHub
-
-Plateforme en ligne permettant d’héberger des projets Git. C’est ici que le code du CV est stocké et mis à jour.
-
-### GitHub Pages
-
-Service de GitHub permettant d’héberger gratuitement un site web statique. Il prend le dossier généré par Hugo et le rend accessible via une URL publique (ex : onsbbr.github.io).
-
-### GitHub Actions
-
-Système d’automatisation de GitHub. Dans ce projet, il sert à :
-
-- Reconstruire le site Hugo
-- Publier automatiquement les fichiers sur GitHub Pages
-- Mettre à jour le site sans intervention manuelle
-
----
-
-## Résumé
-
-Ce projet permet de :
-
-- Construire un CV moderne
-- L'afficher localement via ```http://localhost:1313```
-- Le publier en ligne via ```https://onsbbr.github.io/```
-- Automatiser le déploiement grâce à GitHub Actions
+Ce projet est un site statique. Toute modification du contenu se fait directement dans le fichier `index.html`.
