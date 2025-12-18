@@ -23,18 +23,19 @@ Le CV est hébergé via **GitHub Pages** et consultable directement depuis un na
 ```
    GITHUB/
    ├── docs/
-   │   ├── documentation/
-   │   └── pictures/
+   │   ├── pictures/
+   │   └── Guide.md
    ├── index.html
    └── README.md
 ```
 
 ### Description
 
-- **index.html** : page principale contenant le CV  
-- **docs/** : ressources du projet  
-- **docs/pictures/** : images utilisées dans le projet  
-- **docs/Guide.md/** : guide de création du CV
+- **README.md** : Explique l'objectif de votre projet (avoir un CV en ligne)
+- **index.html** : Contient le code HTML de votre CV
+- **docs/** : Dossier pour ressources supplémentaires du projet  
+- **docs/pictures/** : Images utilisées dans le projet  
+- **docs/Guide.md/** : Guide de création du CV
 
 ## Accès au CV
 

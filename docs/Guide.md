@@ -10,18 +10,11 @@ Veuillez appliquer cette structure pour pouvoir suivre les démarches qui suiven
 ```
    GITHUB/
    ├── docs/
-   │   ├── documentation/
-   │   └── pictures/
+   │   ├── pictures/
+   │   └── Guide.md
    ├── index.html
    └── README.md
 ```
-
-3. **Description des fichiers**
-   - `index.html` : Contient le code HTML de votre CV
-   - `README.md` : Explique l'objectif de votre projet (avoir un CV en ligne)
-   - `docs/` : Dossier pour fichiers et ressources supplémentaires
-   - `docs/documentation/` : Documentations détaillées pour aider à comprendre le projet
-   - `docs/pictures/` : Toutes les images du projet
 
 # Étape 2 : Déploiement sur GitHub
 
